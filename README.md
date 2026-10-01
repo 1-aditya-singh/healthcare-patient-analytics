@@ -174,3 +174,35 @@ Correlation between age and risk score:
 
 ```text
 0.537
+
+## 📂 Project Structure
+
+```text
+healthcare-patient-analytics/
+│
+├── data/
+│   ├── raw/
+│   │   └── healthcare_patients.csv
+│   │
+│   └── processed/
+│       ├── cleaned_healthcare_patients.csv
+│       └── healthcare_patients_no_duplicates.csv
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_duplicate_handling.ipynb
+│   ├── 04_data_consistency_validation.ipynb
+│   ├── 05_univariate_analysis.ipynb
+│   ├── 06_bivariate_analysis.ipynb
+│   ├── 07_multivariate_analysis.ipynb
+│   ├── 08_statistical_analysis.ipynb
+│   ├── 09_outlier_analysis.ipynb
+│   └── 10_final_insights.ipynb
+│
+├── generate_dataset.py
+├── main.py
+├── dashboard.py
+├── requirements.txt
+├── README.md
+└── .gitignore
